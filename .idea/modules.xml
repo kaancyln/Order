@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/orders.iml" filepath="$PROJECT_DIR$/orders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orders-dao/orders-dao.iml" filepath="$PROJECT_DIR$/orders-dao/orders-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orders-domain/orders-domain.iml" filepath="$PROJECT_DIR$/orders-domain/orders-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orders-orika/orders-orika.iml" filepath="$PROJECT_DIR$/orders-orika/orders-orika.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orders-service/orders-service.iml" filepath="$PROJECT_DIR$/orders-service/orders-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orders-webservice/orders-webservice.iml" filepath="$PROJECT_DIR$/orders-webservice/orders-webservice.iml" />
+    </modules>
+  </component>
+</project>

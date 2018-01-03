@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="orders-dao" />
+        <module name="orders-domain" />
+        <module name="orders-orika" />
+        <module name="orders-service" />
+        <module name="orders-webservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="orders" target="1.5" />
+      <module name="orders-common" target="1.5" />
+      <module name="orders-dao" target="1.5" />
+      <module name="orders-domain" target="1.8" />
+      <module name="orders-orika" target="1.8" />
+      <module name="orders-service" target="1.8" />
+      <module name="orders-webservice" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

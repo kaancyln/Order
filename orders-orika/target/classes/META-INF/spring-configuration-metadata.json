@@ -1,0 +1,55 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.orders.orika.OrikaProperties",
+      "name": "com\/orders\/orika",
+      "type": "com.orders.orika.OrikaProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.orders.orika.OrikaProperties",
+      "name": "com\/orders\/orika.capture-field-context",
+      "description": "Whether full field context should be captured (MapperFactoryBuilder#captureFieldContext(boolean)).\n Follows Orika's behavior by default.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.orders.orika.OrikaProperties",
+      "name": "com\/orders\/orika.dump-state-on-exception",
+      "description": "Whether to dump the current state of the mapping infrastructure objects\n upon occurrence of an exception while mapping (MapperFactoryBuilder#dumpStateOnException(boolean)).\n Follows Orika's behavior by default.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.orders.orika.OrikaProperties",
+      "defaultValue": true,
+      "name": "com\/orders\/orika.enabled",
+      "description": "Whether to enable auto-configuration.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.orders.orika.OrikaProperties",
+      "name": "com\/orders\/orika.favor-extension",
+      "description": "Whether the class-map should be considered 'abstract' (MapperFactoryBuilder#favorExtension(boolean)).\n Follows Orika's behavior by default.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.orders.orika.OrikaProperties",
+      "name": "com\/orders\/orika.map-nulls",
+      "description": "Whether to map null values (MapperFactoryBuilder#mapNulls(boolean)).\n Follows Orika's behavior by default.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.orders.orika.OrikaProperties",
+      "name": "com\/orders\/orika.use-auto-mapping",
+      "description": "Whether to use auto-mapping (MapperFactoryBuilder#useAutoMapping(boolean)).\n Follows Orika's behavior by default.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.orders.orika.OrikaProperties",
+      "name": "com\/orders\/orika.use-builtin-converters",
+      "description": "Whether to use built-in converters (MapperFactoryBuilder#useBuiltinConverters(boolean)).\n Follows Orika's behavior by default.",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}
